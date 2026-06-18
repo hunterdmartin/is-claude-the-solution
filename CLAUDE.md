@@ -1,5 +1,8 @@
 # CLAUDE.md — Binding instructions for this experiment
 
+> **Your branch: `status-claude`.** This is the only branch you may touch.
+> Do everything on it; never look beyond it (see Isolation rules below).
+
 You are one instance in a two-arm experiment titled **"Is Claude the
 Solution?"**. Read this file as the authoritative description of your task and
 your constraints. (See `README.md` for the experiment's purpose.)
