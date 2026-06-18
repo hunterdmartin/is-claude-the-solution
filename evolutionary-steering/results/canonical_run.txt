@@ -1,0 +1,38 @@
+
+=== Network: cs_cycle ===
+policy             clearance  MDR failure  ~intervals  max breadth
+------------------------------------------------------------------
+fixed_cycle           100.0%         0.0%         2.0         1.01
+random_cycle          100.0%         0.0%         4.1         1.50
+reactive_switch       100.0%         0.0%         2.1         1.02
+steering              100.0%         0.0%         2.0         1.02
+monotherapy             0.0%         0.0%         n/a         1.00
+
+=== Network: cs_cycle_scrambled ===
+policy             clearance  MDR failure  ~intervals  max breadth
+------------------------------------------------------------------
+fixed_cycle           100.0%         0.0%         2.9         1.92
+reactive_switch       100.0%         0.0%         3.6         1.92
+steering              100.0%         0.0%         2.0         1.03
+random_cycle           99.2%         0.8%         4.2         1.51
+monotherapy             0.0%         0.0%         n/a         1.00
+
+=== Network: cross_resistance ===
+policy             clearance  MDR failure  ~intervals  max breadth
+------------------------------------------------------------------
+steering               87.0%        13.0%         2.8         1.82
+fixed_cycle            71.5%        28.5%         3.2         2.51
+random_cycle           38.8%        61.3%         2.8         3.06
+reactive_switch        15.8%        84.2%         3.5         3.61
+monotherapy             0.0%         0.0%         n/a         1.00
+
+=== Network: independent ===
+policy             clearance  MDR failure  ~intervals  max breadth
+------------------------------------------------------------------
+steering              100.0%         0.0%         2.4         1.46
+fixed_cycle            98.2%         1.8%         2.9         1.98
+random_cycle           55.5%        44.5%         3.2         2.83
+reactive_switch        43.5%        56.5%         3.8         3.08
+monotherapy             0.0%         0.0%         n/a         1.00
+
+Wrote /home/user/is-claude-the-solution/evolutionary-steering/results/policy_comparison.csv
